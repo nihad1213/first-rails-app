@@ -7,6 +7,6 @@ Rails.application.routes.draw do
 
   root 'pages#home'
 
-  get "test" => 'pages#test'
+  get 'about', to: 'pages#about'
 
 end
